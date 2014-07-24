@@ -1,5 +1,5 @@
 SECURE
 ======
-_Secure Encryption Chat Ubiquiutus Relaying Encapsulation_
+_Secure Encrypted Chat (via) Ubiquitous Relay Encapsulation_  
 
 IRC client allowing for PGP encrypted communication.
