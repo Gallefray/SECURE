@@ -1,4 +1,5 @@
 SECURE
 ======
+_Secure Encrypted Chat (via) Ubiquitous Relay Encapsulation_  
 
-Secure encrypted chat using... Err, um. Come back when the acronym's finished... (using plain text networks)
+IRC client allowing for PGP encrypted communication.
