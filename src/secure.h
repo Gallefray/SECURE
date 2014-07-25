@@ -42,6 +42,10 @@ void irc_msg(char* usr, char* msg);
 //not quite complete
 
 // socket.c
+void sck_connect(void);
+void sck_disconn(void);
+void sck_sendstr(void);
+void sck_getstr(void);
 // This one's yours, Finn!
 
 #endif SECURE_HEADER
