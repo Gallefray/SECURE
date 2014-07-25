@@ -1,9 +1,9 @@
 #include "secure.h"
 
-str chans[];
+char* chans[];
 int chan_count = 0;
 
-void irc_conn(str server)
+void irc_conn(char* server)
 {
 	// waiting for sockets.c to be done
 }
@@ -13,7 +13,7 @@ void irc_disconn()
 	// waiting for sockets.c to be done
 }
 
-void irc_join(str chan)
+void irc_join(char* chan)
 {
 	//socket.c magic
 	bool connected;
@@ -25,7 +25,7 @@ void irc_join(str chan)
 	}
 }
 
-void irc_leave(str chan)
+void irc_leave(char* chan)
 {
 	//Nothing to look at, disperse
 	if(chan_count == 0)

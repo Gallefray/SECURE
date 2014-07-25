@@ -10,7 +10,6 @@
 #include <sys/socket.h>
 
 typedef enum {false, true} bool;
-typedef char* str;
 
 // main.c
 
@@ -34,10 +33,10 @@ void io_putlin(void);
 
 // irc.c
 // IRC functions
-void irc_connect(str server);
+void irc_connect(char* server);
 void irc_disconn(void);
-void irc_join(str chan);
-void irc_leave(str chan);
+void irc_join(char* chan);
+void irc_leave(char* chan);
 //not quite complete
 
 // socket.c
