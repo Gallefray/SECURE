@@ -1,13 +1,43 @@
 #include "secure.h"
 
-void irc_join(str chan[])
+str chans[];
+int chan_count = 0;
+
+void irc_conn(str server)
 {
-	for(int i=0; i<sizeof(chan); ++i) //this is SURELY(?) wrong, just a concept until I figure out strings
-		irc_join(chan[i]);
+	// waiting for sockets.c to be done
 }
 
-void irc_join(str chan[], str pwd[])
+void irc_disconn()
 {
-	for(int i=0; i<sizeof(chan); ++i)
-		irc_join(chan[i], pwd[i]);
+	// waiting for sockets.c to be done
+}
+
+void irc_join(str chan)
+{
+	//socket.c magic
+	bool connected;
+	if(connected)
+		chans[chan_count++] = chan;
+	else
+	{
+		//error message?
+	}
+}
+
+void irc_leave(str chan)
+{
+	//Nothing to look at, disperse
+	if(chan_count == 0)
+		return;
+
+	//Needle in the haystack
+	for(int i=0; i<sizeof(chans); ++i)
+	{
+		if(chan == chans[i])
+		{
+			//chans.pop(i) ? how do I do this in C?
+			--chan_count;
+		}
+	}
 }

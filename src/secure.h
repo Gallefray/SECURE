@@ -34,17 +34,10 @@ void io_putlin(void);
 
 // irc.c
 // IRC functions
-void irc_connect(void server);
-void irc_join(str chan);
-void irc_join(str chan[]);
-void irc_join(str chan, str pwd);
-void irc_join(str chan[], str pwd[]);
+void irc_connect(str server);
 void irc_disconn(void);
-void irc_whois(void);
-void irc_msg(void);
-void irc_getmsg(void);
-void irc_send(void);
-void irc_get(void);
+void irc_join(str chan);
+void irc_leave(str chan);
 //not quite complete
 
 // socket.c
