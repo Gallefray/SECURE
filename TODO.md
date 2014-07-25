@@ -9,5 +9,7 @@ TODO list
 * Develop CLI (libreadline)
 
 **Current tasks:**
+
 James:  IRC functions
+
 Finn:   
