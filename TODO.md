@@ -1,15 +1,13 @@
 TODO list
 ===========
 
-Items are ordered by priority (?)
-
-James:
 * Text command to irc function parsing (cmd.c)
 * IRC functions (irc.c)
-* Help with pgp.c
+* Implement PGP
 * Develop GUI (http://github.com/mrgame64/SECURE-GUI)
-
-Finn:
-* Implement sockets (sockets.c)
+* Implement sockets (sockets.c) _(Finn, please do it ASAP, this has top priority)_
 * Develop CLI (libreadline)
-* Help with pgp.c
+
+**Current tasks:**
+James:  IRC functions
+Finn:   
