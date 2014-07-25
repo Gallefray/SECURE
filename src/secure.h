@@ -24,7 +24,8 @@ void cmd_parse(void); //seems to be doing well by itself
 void pgp_getmsg(void); // uses getline(void) to get the message line by line. Concats and stores it in a buffer (eventually a libgpgme buffer)
 void pgp_getpub(void);
 void pgp_verify(void);
-void pgp_decrypt(void);
+char* pgp_decrypt(void);
+char* pgp_encrypt(void);
 
 // io.c (Can later be altered for readline and sockets)
 // (please define)
@@ -37,6 +38,7 @@ void irc_connect(char* server);
 void irc_disconn(void);
 void irc_join(char* chan);
 void irc_leave(char* chan);
+void irc_msg(char* usr, char* msg);
 //not quite complete
 
 // socket.c
