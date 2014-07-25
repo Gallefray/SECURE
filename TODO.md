@@ -1,7 +1,15 @@
 TODO list
 ===========
 
-* Write the basic client library
-* Implement libGcrypt (https://www.gnupg.org/documentation/manuals/gcrypt)
-* Write a CLI for the client (look at IRSSI code?)
-* Develop a GUI client in a separate repo (http://github.com/mrgame64/SECURE-GUI)
+Items are ordered by priority (?)
+
+James:
+* Text command to irc function parsing (cmd.c)
+* IRC functions (irc.c)
+* Help with pgp.c
+* Develop GUI (http://github.com/mrgame64/SECURE-GUI)
+
+Finn:
+* Implement sockets (sockets.c)
+* Develop CLI (libreadline)
+* Help with pgp.c
