@@ -1,13 +1,13 @@
 #include "secure.h"
 
-void irc_join(str channel[])
+void irc_join(str chan[])
 {
-	for(int i=0; i<sizeof(channel); ++i) //this is SURELY(?) wrong, just a concept until I figure out strings
-		irc_join(channel[i]);
+	for(int i=0; i<sizeof(chan); ++i) //this is SURELY(?) wrong, just a concept until I figure out strings
+		irc_join(chan[i]);
 }
 
-void irc_join(str channel[], str pwd[])
+void irc_join(str chan[], str pwd[])
 {
-	for(int i=0; i<sizeof(channel); ++i)
-		irc_join(channel[i], pwd[i]);
+	for(int i=0; i<sizeof(chan); ++i)
+		irc_join(chan[i], pwd[i]);
 }

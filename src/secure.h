@@ -35,10 +35,10 @@ void io_putlin(void);
 // irc.c
 // IRC functions
 void irc_connect(void server);
-void irc_join(str channel);
-void irc_join(str channel[]);
-void irc_join(str channel, str pwd);
-void irc_join(str channel[], str pwd[]);
+void irc_join(str chan);
+void irc_join(str chan[]);
+void irc_join(str chan, str pwd);
+void irc_join(str chan[], str pwd[]);
 void irc_disconn(void);
 void irc_whois(void);
 void irc_msg(void);
